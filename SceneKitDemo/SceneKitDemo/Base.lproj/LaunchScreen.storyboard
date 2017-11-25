@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aAS-rV-la6"/>
+                        <viewControllerLayoutGuide type="bottom" id="vkf-2h-Kg5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Logo_Diffuse" translatesAutoresizingMaskIntoConstraints="NO" id="e5I-lN-9hZ">
+                                <rect key="frame" x="24" y="44" width="327" height="579"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.052560813771183761" green="0.084204546655112969" blue="0.56480731865284972" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="vkf-2h-Kg5" firstAttribute="top" secondItem="e5I-lN-9hZ" secondAttribute="bottom" constant="44" id="91x-5L-H5a"/>
+                            <constraint firstItem="e5I-lN-9hZ" firstAttribute="top" secondItem="aAS-rV-la6" secondAttribute="bottom" constant="24" id="hCC-RB-C7c"/>
+                            <constraint firstAttribute="trailing" secondItem="e5I-lN-9hZ" secondAttribute="trailing" constant="24" id="jN2-hr-W04"/>
+                            <constraint firstItem="e5I-lN-9hZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="24" id="zs5-Nj-yBI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo_Diffuse" width="512" height="512"/>
+    </resources>
+</document>
